@@ -37,3 +37,38 @@ header {
     background: #ffffff;
     border: 1px solid #dddddd;
 }
+
+
+.startNumber {
+    position: relative;
+    width: 200px;
+    left: 50px;
+    top: 160px;
+    padding-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.score{
+    float:right;
+    position: relative;
+    width: 200px;
+    right: 50px;
+    bottom: 100px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+.counter{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    top:50px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
