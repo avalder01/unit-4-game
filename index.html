@@ -4,6 +4,8 @@
     <title>Crystal Game</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -22,32 +24,40 @@
         </div>
 
         <div class= "startNumber">
-           <h3>Starting Number:</h3>
+            <h3><u>Starting Number</u></h3>
+                
+            <h2><span id="numberStart"></span></h2>
+            
         </div>
 
 
         <div class= "crystals">
-                <img id="crystal" src="assets/images/gem1.png" alt="gem1"> 
-                <img id="crystal" src="assets/images/gem2.png" alt="gem2"> 
-                <img id="crystal" src="assets/images/gem3.png" alt="gem3"> 
-                <img id="crystal" src="assets/images/gem5.png" alt="gem4"> 
-
+                <img id="crystalOne" src="assets/images/gem1.png" alt="gem1"> 
+                <img id="crystalTwo" src="assets/images/gem2.png" alt="gem2"> 
+                <img id="crystalThree" src="assets/images/gem3.png" alt="gem3"> 
+                <img id="crystalFour" src="assets/images/gem5.png" alt="gem4"> 
         </div>
 
         <div class="score">
-          <h3>Your total score:  </h3>
+            <h3><u>Your Total Score</u></h3>
+            <h2><span id="totalScore"></span></h2>      
+        </div>
 
-         </div>
-
-         <div class= "counter">
-            <h3> Wins:
-                <br>
-                <br>
-                  Losses:
-             </h3>
-         </div> 
+         <!-- <div class= "counter"> -->
+             <div class= "wins">
+                    <h3><u>Wins</u></h3>
+                    <h2><span id= "winner"></span></h2>
+                 
+             </div>
+            <div class="losses">
+                    <h3><u>losses</u></h3>
+                    <h2><span id= "loser"></span></h2>
+            </div>   
+         <!-- </div>  -->
     </section>
 
 </body>
+
+<script src="assets/javascript/game.js"></script>
 
 </html>
